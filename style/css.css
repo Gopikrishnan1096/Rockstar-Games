@@ -1,0 +1,104 @@
+body{
+    background-color: #0b0b0b;
+}
+header{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #666666;
+    color: #0b0b0b;
+}
+.nva-bar{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding-left: 60px;
+    position: relative;
+}
+.nva-logo
+{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+.nva-ac
+{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-right: 60px;
+    
+    position: relative;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.watchme{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    border-color: white;
+    width: 200px;
+    height: 60px;
+
+}
+.watchme:hover{
+    border: 1px solid black;
+    color: black;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+}
+.newsire{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 130px;
+    background-color: black;
+}
+.viewAll{
+    background-color: black;
+    height: 200PX;
+    display: flex;
+    justify-content: center;
+}
+.viewAll a{
+    color: white;
+}
+.viewAll a:hover{
+    color: #ffc107;
+
+}
+.viewMore{
+    display: flex;
+    justify-content: center;
+}
+.viewMore h2{
+    color: white;
+    padding-top: 40px;
+}
+.viewMore h2:hover{
+    color: #ffc107;
+}
+@media screen and (max-width:768px) {
+    .games{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+} 
+    
